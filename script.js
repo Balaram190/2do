@@ -26,19 +26,19 @@ window.addEventListener("load", () => {
 //             edit.setAttribute("id", "edit");
 //             buttonDiv.appendChild(edit);
 
-            let remove = document.createElement("button");
-            remove.innerText = "Delete";
-            remove.setAttribute("id", "delete");
-            buttonDiv.appendChild(remove);
+//             let remove = document.createElement("button");
+//             remove.innerText = "Delete";
+//             remove.setAttribute("id", "delete");
+//             buttonDiv.appendChild(remove);
 
-            input.value = "";
+//             input.value = "";
 
-            remove.addEventListener("click", () => {
+//             remove.addEventListener("click", () => {
 
 
-                addedTask.removeChild(task);
+//                 addedTask.removeChild(task);
 
-            });
+//             });
 
 
 //             edit.addEventListener("click", () => {
@@ -60,6 +60,4 @@ window.addEventListener("load", () => {
     });
 
 })
-function removeAll() {
-    document.getElementById("task-list").innerHTML = "";
-}
+
