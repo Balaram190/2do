@@ -21,10 +21,10 @@ window.addEventListener("load", () => {
 //             buttonDiv.setAttribute("id", "edit_delete");
 //             task.appendChild(buttonDiv);
 
-            let edit = document.createElement("button");
-            edit.innerText = "Edit";
-            edit.setAttribute("id", "edit");
-            buttonDiv.appendChild(edit);
+//             let edit = document.createElement("button");
+//             edit.innerText = "Edit";
+//             edit.setAttribute("id", "edit");
+//             buttonDiv.appendChild(edit);
 
 //             let remove = document.createElement("button");
 //             remove.innerText = "Delete";
@@ -41,22 +41,22 @@ window.addEventListener("load", () => {
 //             });
 
 
-            edit.addEventListener("click", () => {
-                let edit = prompt("Edited task here");
+//             edit.addEventListener("click", () => {
+//                 let edit = prompt("Edited task here");
 
-                console.log(edit);
-                if (edit == null) {
-                    return;
-                }
-                else {
-                    para.innerText = edit;
-                }
+//                 console.log(edit);
+//                 if (edit == null) {
+//                     return;
+//                 }
+//                 else {
+//                     para.innerText = edit;
+//                 }
 
 
-            });
-        } else {
-            alert("please enter your task");
-        }
+//             });
+//         } else {
+//             alert("please enter your task");
+//         }
     });
 
 })
