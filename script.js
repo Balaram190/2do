@@ -9,36 +9,36 @@ window.addEventListener("load", () => {
 
         if (input.value != "") {
 
-            let task = document.createElement("li");
-            task.setAttribute("id", "paraa")
-            addedTask.appendChild(task);
+//             let task = document.createElement("li");
+//             task.setAttribute("id", "paraa")
+//             addedTask.appendChild(task);
 
-            let para = document.createElement("p");
-            task.appendChild(para);
-            para.innerHTML = input.value;
+//             let para = document.createElement("p");
+//             task.appendChild(para);
+//             para.innerHTML = input.value;
 
-            let buttonDiv = document.createElement("div");
-            buttonDiv.setAttribute("id", "edit_delete");
-            task.appendChild(buttonDiv);
+//             let buttonDiv = document.createElement("div");
+//             buttonDiv.setAttribute("id", "edit_delete");
+//             task.appendChild(buttonDiv);
 
             let edit = document.createElement("button");
             edit.innerText = "Edit";
             edit.setAttribute("id", "edit");
             buttonDiv.appendChild(edit);
 
-            let remove = document.createElement("button");
-            remove.innerText = "Delete";
-            remove.setAttribute("id", "delete");
-            buttonDiv.appendChild(remove);
+//             let remove = document.createElement("button");
+//             remove.innerText = "Delete";
+//             remove.setAttribute("id", "delete");
+//             buttonDiv.appendChild(remove);
 
-            input.value = "";
+//             input.value = "";
 
-            remove.addEventListener("click", () => {
+//             remove.addEventListener("click", () => {
 
 
-                addedTask.removeChild(task);
+//                 addedTask.removeChild(task);
 
-            });
+//             });
 
 
             edit.addEventListener("click", () => {
@@ -60,6 +60,6 @@ window.addEventListener("load", () => {
     });
 
 })
-function removeAll() {
-    document.getElementById("task-list").innerHTML = "";
-}
+// function removeAll() {
+//     document.getElementById("task-list").innerHTML = "";
+// }
