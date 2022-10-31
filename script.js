@@ -60,6 +60,4 @@ window.addEventListener("load", () => {
     });
 
 })
-// function removeAll() {
-//     document.getElementById("task-list").innerHTML = "";
-// }
+
